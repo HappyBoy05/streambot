@@ -27,7 +27,7 @@ async def help(bot, cmd):
 		disable_web_page_preview=True,
 		reply_markup=InlineKeyboardMarkup(
 			[
-				[InlineKeyboardButton("Support HB4All", url="https://t.me/HB4All"), InlineKeyboardButton("Developer", url="https://t.me/HappyBoy59")],
+				[InlineKeyboardButton("Support HB4All", url="https://t.me/HB4All"), InlineKeyboardButton("Developer", url="https://t.me/HappyBoy59")]
 	
 			
 		]
