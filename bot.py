@@ -17,7 +17,7 @@ Bot = Client(Config.SESSION_NAME, bot_token=Config.BOT_TOKEN, api_id=Config.API_
 
 @Bot.on_message(filters.command("start"))
 async def start(bot, cmd):
-	await cmd.reply_text("HI, I am CloudStream Bot I Upload Telegram File To Stream Video And Download  \n, Check > /help <, reply_markup=InlineKeyboardMarkup([InlineKeyboardButton("Developer", url="https://t.me/HappyBoy59"), InlineKeyboardButton("Support Channel", url="https://t.me/HB4All")])
+	await cmd.reply_text("HI, I am CloudStream Bot I Upload Telegram File To Stream Video And Download  \n How To /help")
 
 @Bot.on_message(filters.command("help"))
 async def help(bot, cmd):
@@ -30,7 +30,7 @@ async def help(bot, cmd):
 				[InlineKeyboardButton("Support HB4All", url="https://t.me/HB4All"), InlineKeyboardButton("Developer", url="https://t.me/HappyBoy59")],
 	
 			
-		)
+		]
 	)
 
 @Bot.on_message(filters.private & filters.media)
