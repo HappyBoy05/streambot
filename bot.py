@@ -16,13 +16,13 @@ Bot = Client(Config.SESSION_NAME, bot_token=Config.BOT_TOKEN, api_id=Config.API_
 @Bot.on_message(filters.command("start"))
 async def start_handler(_, cmd):
     await cmd.reply_text(
-        "HI, I am Cloudstream Bot!\n\nHow To Use, Check > /help <",
+        "HI, I am Cloud Uploads Manager Bot!\n\nI can Do a Lot of Things, Check > /help <",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer", url="https://t.me/happyboy59"),
-                 InlineKeyboardButton("Support Channel", url="https://t.me/hb4all")],
-                [InlineKeyboardButton("Bots Channel", url="https://t.me/BotListHB4All")],
-                [InlineKeyboardButton("HB4All", url="https://t.me/HB4All_Bot")]
+                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"),
+                 InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
+                [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
+                [InlineKeyboardButton("Bot's Source Code", url="https://github.com/AbirHasan2005/Cloud-UPManager-Bot")]
             ]
         )
     )
@@ -36,8 +36,8 @@ async def help_handler(_, cmd):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("HB4All", url="https://t.me/hb4all"),
-                 InlineKeyboardButton("Developer", url="https://t.me/Happyboy59")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
+                 InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
                 [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                 [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
                                       switch_inline_query_current_chat="!stdel ")],
