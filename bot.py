@@ -17,7 +17,7 @@ Bot = Client(Config.SESSION_NAME, bot_token=Config.BOT_TOKEN, api_id=Config.API_
 
 @Bot.on_message(filters.command("start"))
 async def start(bot, cmd):
-	await cmd.reply_text("HI, I am Cloud Uploads Manager Bot!\n\nI can Do a Lot of Things, Check > /help <", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Bot's Source Code", url="https://github.com/AbirHasan2005/Cloud-UPManager-Bot")]]))
+	await cmd.reply_text("HI, I am CloudStream Bot I Upload Telegram File To Stream Video And Download  \n, Check > /help <", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/HappyBoy59"), InlineKeyboardButton("Support Channel", url="https://t.me/HB4All")], [InlineKeyboardButton("Bots Channel", url="https://t.me/BotlistHB4All")],))
 
 @Bot.on_message(filters.command("help"))
 async def help(bot, cmd):
@@ -27,15 +27,9 @@ async def help(bot, cmd):
 		disable_web_page_preview=True,
 		reply_markup=InlineKeyboardMarkup(
 			[
-				[InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"), InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
-				[InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
-				[InlineKeyboardButton("Delete Streamtape File (Admin Only)", switch_inline_query_current_chat="!stdel ")],
-				[InlineKeyboardButton("Rename Streamtape File (Admin Only)", switch_inline_query_current_chat="!strename ")],
-				[InlineKeyboardButton("Add Remote URL in Streamtape", switch_inline_query_current_chat="!stremote ")],
-				[InlineKeyboardButton("Get Status of Streamtape Token", switch_inline_query_current_chat="!show ")],
-				[InlineKeyboardButton("Rmeove Remote URL (Admin Only)", switch_inline_query_current_chat="!strmdel ")],
-				[InlineKeyboardButton("Show Configs (Admin Only)", callback_data="showcreds")]
-			]
+				[InlineKeyboardButton("Support HB4All", url="https://t.me/HB4All"), InlineKeyboardButton("Developer", url="https://t.me/HappyBoy59")],
+	
+			
 		)
 	)
 
