@@ -7,7 +7,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID"))
 	API_HASH = os.environ.get("API_HASH")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	GOFILE_API = os.environ.get("GOFILE_API")
+	GOFILE_API = os.environ.get("uKR1YsttcRYQHZB5GgTv5Zw3uGyXCIhA")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
 	SESSION_NAME = os.environ.get("SESSION_NAME", "CloudManagerBot")
