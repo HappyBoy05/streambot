@@ -20,8 +20,7 @@ Currently I can Upload to:
 > GoFile.io
 > streamtape.com
 
-Also I can do a lot of things from Inline!
-__Check Below Buttons >>>__
+For More @HB4All @HB4All_Bot >>>__
 """
 	PROGRESS = """
 Percentage : {0}%
